@@ -1,8 +1,7 @@
 from tkinter import *
-from tkinter import ttk
 
 root = Tk()
 
-ttk.Button(root, text='Hello baby, I love you').grid()
+theLabel = Label(root, text = "Hello Tkinter, I Love You", bg = "white", fg = "black").pack()
 
 root.mainloop()
